@@ -10,11 +10,12 @@ build_search_index = false
 # Optional: enable tags
 taxonomies = [{ name = "tags" }]
 
+default_language = "ar"
+
 # Code highlighting
 [markdown]
 highlight_code = true
 highlight_theme = "boron"
-
 
 [extra]
 # Put all your custom variables here
@@ -61,9 +62,6 @@ enable_post_view_navigation = true
 # before earlier/later post links.
 # Defaults to "Thanks for reading! Read other posts?"
 post_view_navigation_prompt = "Read more"
-
-
-default_language = "ar"
 
 
 # Optional: Global favicon URL and mimetype.
