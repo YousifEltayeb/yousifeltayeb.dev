@@ -4,12 +4,25 @@
 .post-title[dir="rtl"] {
     text-align: right;
     font-family: 'IBM Plex Sans Arabic', sans-serif;
+    
+    /* Ensure links in title also use Arabic font */
+    a {
+        font-family: 'IBM Plex Sans Arabic', sans-serif;
+    }
 }
 
 /* Post content - right-aligned for RTL */
 .post-content[dir="rtl"] {
     text-align: right;
     font-family: 'IBM Plex Sans Arabic', sans-serif;
+    
+    /* Explicitly set Arabic font on all child text elements */
+    h1, h2, h3, h4, h5, h6,
+    p, li, span, div, a,
+    blockquote, strong, em, b, i,
+    td, th, dt, dd {
+        font-family: 'IBM Plex Sans Arabic', sans-serif;
+    }
     
     /* Paragraphs */
     p {
@@ -35,11 +48,13 @@
     pre, code {
         direction: ltr;
         text-align: left;
+        font-family: Hack, DejaVu Sans Mono, Monaco, Consolas, Ubuntu Mono, monospace;
     }
     
     /* Inline code should stay LTR */
     p code, li code {
         direction: ltr;
+        font-family: Hack, DejaVu Sans Mono, Monaco, Consolas, Ubuntu Mono, monospace;
     }
 }
 
