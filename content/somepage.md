@@ -4,6 +4,9 @@ date = 2019-02-02
 
 [taxonomies]
 tags = ["rant"]
+
+[extra]
+lang = "en"
 +++
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu feugiat sapien.
