@@ -1,5 +1,5 @@
 +++
-title = "Understanding the Event Loop in JavaScript"
+title = "نحاول نفهم JavaScript"
 date = 2025-10-27
 [taxonomies]
 tags = ["javascript", "event-loop", "web-development"]

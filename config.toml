@@ -10,7 +10,7 @@ build_search_index = false
 # Optional: enable tags
 taxonomies = [{ name = "tags" }]
 
-default_language = "ar"
+default_language = "en"
 
 # Code highlighting
 [markdown]
@@ -36,8 +36,7 @@ author = "Yousif"
 menu_items = [
     # each of these is optional, name and url are required
     # $BASE_URL is going to be substituted by base_url from configuration
-    { name = "posts", url = "$BASE_URL/posts" },
-
+    
     # tags should only be enabled if you have "tags" taxonomy
     # see documentation below for more details
     { name = "tags", url = "$BASE_URL/tags" },
