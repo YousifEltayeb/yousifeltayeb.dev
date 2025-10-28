@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://yousifeltayeb.dev"
+base_url = "https://yousuf.computer"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -36,7 +36,7 @@ author = "Yousif"
 menu_items = [
     # each of these is optional, name and url are required
     # $BASE_URL is going to be substituted by base_url from configuration
-    
+
     # tags should only be enabled if you have "tags" taxonomy
     # see documentation below for more details
     { name = "tags", url = "$BASE_URL/tags" },
